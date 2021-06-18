@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<script type="text/javascript">
+	function table(){
+		var c=document.getElementById("t1").value;
+		var r;
+		for(var i=1; i<=10; i++){
+			 r=c*i;
+			 document.getElementById("res1").innerHTML+=c+"x"+i+"="+r+"</br>";
+		}
+		
+	}
+
+function prime(){
+	var f=document.getElementById("t2").value;
+	var d=0,flag=0;
+	d=f/2;
+	for(var i=2; i<=d; i++)
+	{
+		if (f%i==0) {
+			document.getElementById("res2").innerHTML="Not Prime";
+			flag=1;
+		}
+	}
+	if(flag==0)    
+document.getElementById("res2").innerHTML="Prime";
+}
+
+function fact(){
+		var g, i;
+		g=1;
+	var f=document.getElementById("t3").value;
+	for(i=f; i>=1 ; i--){
+		g*=i;
+		document.getElementById("res3").innerHTML=g;
+	}
+}
+
+</script>
+
+</head>
+<body>
+	<h2 style="font-size: 2.5vw;">Enter the number to find its table</h2>
+<input type="text" name="table" placeholder="Number" id="t1">
+<br>
+<br>
+<button onclick="table()">Find</button>
+<p id="res1"></p>
+
+<h2 style="font-size: 2.5vw;">Enter the number to check whether it is prime or not</h2>
+<input type="text" name="prime" placeholder="Number" id="t2">
+<br>
+<br>
+<button onclick="prime()">Find</button>
+<p id="res2"></p>
+
+<h2 style="font-size: 2.5vw;">Enter the number to find its factorial</h2>
+<input type="text" id="t3" placeholder="Number">
+<br>
+<br>
+<button onclick="fact()">Find</button>
+<p id="res3"></p>
+</body>
+</html>
