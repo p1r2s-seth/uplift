@@ -62,11 +62,23 @@ $(document).ready(function(){
 // navscroll
 $(document).ready(function(){
     $(window).scroll(function(){
-        if($(window).scrollTop() > 500){
+        if($(window).scrollTop() > 150){
             $(".navbar").css({"background-color":"#1e1e1e"});   
         }
         else{
             $(".navbar").css({"background-color":"transparent"});
+        }
+
+    });
+});
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if($(window).scrollTop() > 150){
+            $(".headerimg").css({"width":"110px"});   
+        }
+        else{
+            $(".headerimg").css({"width":"170px"});
         }
 
     });
