@@ -182,6 +182,10 @@
 	margin-left: 12%;
 }
 
+.masthead-heading{
+	font-size: 6rem;
+}
+
 .masthead-subheading{
 	margin-top: 50%;
 }
@@ -288,5 +292,11 @@
 .text, .text1{
 	font-size: 3.5vw;
 }
+	
+.des{
+    white-space: normal;
+    -webkit-animation: typing 3s steps(30,end),
+    blink-caret infinite alternate step-end .5s;
+}	
 
 }
