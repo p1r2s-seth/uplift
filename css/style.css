@@ -470,7 +470,7 @@ a.animated-button.thar-two:hover {
   transition: 0.7s all;
   color: #fff;
   border: none;
-  box-shadow: inset 0 15vmin 0 0 rgb(200,0,0);
+  background-color: rgb(200,0,0);
   font-size: 1vw;
   padding: 12px 28px;
   font-family: neo;
