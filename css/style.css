@@ -232,6 +232,18 @@ a:link{
 	letter-spacing: 2px;
 }
 
+@-webkit-keyframes typing{from{width: 0;}}
+@-webkit-keyframes blink-caret{50%{border-color: transparent;}}
+.des{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    /*border-right: .1em solid #fff;*/
+    letter-spacing: 3px;
+    -webkit-animation: typing 5s steps(30,end),
+    blink-caret infinite alternate step-end .5s;
+}
+
 /*@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
