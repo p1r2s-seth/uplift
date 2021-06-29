@@ -5,7 +5,7 @@
 	display: none;
 }
 }
-@media(max-width: 1085px){
+@media(max-width: 993px){
 	.headerul  {
 	display: none;
 }
@@ -123,10 +123,39 @@
 	margin-top: -5%;
 }
 
+.place{
+	margin-left: 38%;
+}
+
+.inpu1, .inpu2{
+	width: 285px;
+	margin-left: 32%;
+	margin-top: 4%;
+}
+
+.inpu3{
+	width: 287px;
+	margin-left: 32%;
+}
+
+.button{
+	margin-left: 92%;
+	margin-bottom: 40px;
+}
+
+.map{
+	margin-left: 16%;
+	margin-bottom: 30px;
+	width: 80%;
+}
 
 }
 
 @media only screen and (max-width: 768px) and (min-width: 600px){
+
+.hamul li{
+	padding-right: 30px;
+}
 
 .one #button{
 	margin-left: 8.5%;
@@ -173,10 +202,45 @@
 	margin-left: 43%;
 }
 
+.place{
+	margin-left: 38%;
+}
+
+.inpu1, .inpu2{
+	width: 285px;
+	margin-left: 30%;
+	margin-top: 4%;
+}
+
+.inpu3{
+	width: 285px;
+	margin-left: 30%;
+}
+
+.button{
+	margin-left: 92%;
+	margin-bottom: 40px;
+}
+
+.map{
+	margin-left: 18%;
+	margin-bottom: 30px;
+	width: 80%;
+}
+
 }
 
 
 @media only screen and (max-width: 600px) and (min-width: 480px) {
+
+.hamul li{
+	padding-right: 65px; 
+}
+
+.hamul{
+	width: 50%;
+	height: 85%;
+}
 
 .one #button{
 	margin-left: 12%;
@@ -227,9 +291,44 @@
 	margin-left: 40%;
 }
 
+.place{
+	margin-left: 36%;
+}
+
+.inpu1, .inpu2{
+	width: 285px;
+	margin-left: 27%;
+	margin-top: 4%;
+}
+
+.inpu3{
+	width: 285px;
+	margin-left: 27%;
+}
+
+.button{
+	margin-left: 97%;
+	margin-bottom: 40px;
+}
+
+.map{
+	margin-left: 20%;
+	margin-bottom: 30px;
+	width: 80%;
+}
+
 }
 
 @media only screen and (max-width: 480px) and (min-width: 270px) {
+
+.hamul li{
+	padding-right: 50px; 
+}
+
+.hamul{
+	width: 60%;
+	height: 70%
+}
 
 .one #button{
 	margin-left: 18%;
@@ -257,11 +356,11 @@
 }
 
 .wb4{
-	top: 400%;
+	top: 385%;
 }
 
 .wb5{
-	top: 450%;
+	top: 435%;
 }
 
 .sec_head{
@@ -292,11 +391,38 @@
 .text, .text1{
 	font-size: 3.5vw;
 }
-	
+
 .des{
     white-space: normal;
     -webkit-animation: typing 3s steps(30,end),
     blink-caret infinite alternate step-end .5s;
-}	
+}
 
+.place{
+	margin-left: 27%;
+}
+
+.button{
+	margin-left: 87%;
+	margin-bottom: 40px;
+}
+
+.map{
+	margin-left: 13%;
+	margin-bottom: 30px;
+	width: 90%;
+}
+
+
+}
+
+@media only screen and (max-height: 321px){
+.hamul li{
+	padding-right: 50px; 
+}
+
+.hamul{
+	width: 70%;
+	height: 85%
+}
 }
