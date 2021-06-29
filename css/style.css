@@ -148,12 +148,12 @@ a:link{
 }
 .hamul {
 
-	width: 100%;
-	height: 100%;
+	width: 50%;
+	height: 80%;
 	position: fixed;
-	left: 0px;
+	right: 0px;
 	margin-top: -9px;
-	background-color: #fff;    
+	background-color: rgb(30, 30, 30);    
 	display: none;
 	z-index: 2000;
 	overflow-x: auto;
@@ -170,7 +170,7 @@ a:link{
 	cursor: pointer;
 	text-align: center;
 	font-size: 25px;
-  color: #444;
+  color: #fff;
   padding: 5px; 
   margin-top: 8px;
   font-family: mont;
@@ -375,7 +375,10 @@ a.animated-button.thar-two:hover {
 	font-size: 7rem;
 	letter-spacing: 3px;
 	color: rgb(200,0,0);
-	text-shadow: 3px 3px #FFD700;
+	/*text-shadow: 3px 3px #FFD700;*/
+      text-shadow: 
+    3px 3px 0px rgba(255,215,0,0.8), 
+    -3px -3px 0px rgba(255,0,0,0.5);
 }
 
 .icon {
@@ -685,4 +688,96 @@ a.animated-button.thar-two:hover {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
+}
+
+.place{
+  margin-left: 10%;
+  font-family: 'Lobster', cursive;
+}
+
+.inpu1, .inpu2{
+  height: 30px;
+  width: 250px;
+  display: table;
+  margin-left: 15%;
+  margin-top: 8%;
+  margin-right: auto;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid rgb(200,0,0);
+  padding-left: 20px;
+  color: #000 !important; 
+  font-family:ca;
+  font-weight: bold; 
+
+}
+.inpu2{
+  margin-top: 30px;
+}
+
+.inpu3{
+    height: 100px;
+  width: 250px;
+  display: table;
+  margin-left: 15%;
+  margin-right: auto;
+  margin-top: 40px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border: 3px solid rgb(200,0,0);
+  padding-left: 20px;
+  color: #000;
+  font-family:ca;
+  font-weight: bold; 
+}
+
+.button {
+  background-image: -webkit-linear-gradient(106deg, #E5474B 50%, #c43d40 50%);
+  background-image: linear-gradient(-16deg, #E5474B 50%, #c43d40 50%);
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  padding: 10px 30px 15px;
+  max-width: 100%;
+  font-family: ca;
+  margin-left: 50%;
+  margin-top: -8%;
+
+}
+.button:after {
+  content: "";
+  background: #fff;
+  height: 1px;
+  width: 15%;
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  left: 42.5%;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+.button:hover {
+  color: #fff;
+}
+.button:hover:after {
+  width: 70%;
+  left: 15%;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+.map{
+  border:0; 
+  width:100%; 
+  height: 285px; 
+  padding-right: 12%;
 }
